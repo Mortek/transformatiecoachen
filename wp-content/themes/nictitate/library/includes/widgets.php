@@ -1640,7 +1640,7 @@ class Kopa_Widget_Socials extends WP_Widget {
             <?php endif; ?>
 
             <?php if ( ! empty( $facebook ) ) : ?>
-                <li><a href="<?php echo esc_url( $facebook ); ?>" data-icon="&#xf09a;"></a></li>
+                <li><a target="_blank" href="<?php echo esc_url( $facebook ); ?>" data-icon="&#xf09a;"></a></li>
             <?php endif; ?>
 
             <?php if ( $rss != 'HIDE' && $rss == '' ) : ?>
