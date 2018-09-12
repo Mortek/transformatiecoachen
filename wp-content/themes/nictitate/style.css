@@ -3316,3 +3316,16 @@ input[type="text"]:focus {
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
+/* CUSTOM */
+.page-title h1 {
+    color: #555;
+    font-size: 32px;
+    line-height: 30px;
+    margin: 0 0 10px;
+}
+#text-4 > div > p:nth-child(1) > a:hover,
+#text-4 > div > p:nth-child(2) > a:hover {
+    color: #800080 !important;
+    text-decoration:none;
+}
