@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="row-fluid">
                 <div class="span12">
-                    <h3><?php 
+                    <h1><?php 
                     if ( is_search() ) {
                         _e( 'Search', kopa_get_domain() ); 
                     } elseif( is_tax( 'product_cat' ) || is_tax( 'product_tag' ) ) {
@@ -14,7 +14,7 @@
                     } else {
                         single_post_title();
                     }
-                    ?></h3>
+                    ?></h1>
 
                     <?php kopa_breadcrumb(); ?>
 
