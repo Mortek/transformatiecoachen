@@ -13,7 +13,6 @@ $layout_id = $kopa_setting['layout_id'];
     <header class="<?php echo $layout_id == 'single-2-right-sidebar' ? 'clearfix' : ''; ?>">                                    
         <h1 class="entry-title"><?php the_title(); ?><span></span></h1>
         <span class="entry-date"><span class="fa fa-clock-o"></span><?php the_time( get_option( 'date_format' ) ); ?></span>
-        <span class="entry-comments"><span class="fa fa-comment"></span><?php comments_popup_link(); ?></span>
     </header>
 
     <div class="elements-box">

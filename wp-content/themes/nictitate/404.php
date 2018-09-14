@@ -9,11 +9,11 @@ get_header();
                     <p><?php _e('404', kopa_get_domain());?></p>
                 </div><!--left-col-->
                 <div class="right-col">
-                    <h1><?php _e('Page not found...', kopa_get_domain());?></h1>
-                    <p><?php _e("We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it we'll try to fix it. In the meantime, try one of this options:", kopa_get_domain());?></p>
+                    <h1><?php _e('Pagina niet gevonden...', kopa_get_domain());?></h1>
+                    <p><?php _e("Deze pagina is niet gevonden. Kies één van de onderstaande opties om verder te gaan: ", kopa_get_domain());?></p>
                     <ul class="arrow-list">
-                        <li><a href="javascript: history.go(-1);"><?php _e('Go back to previous page', kopa_get_domain());?></a></li>
-                        <li><a href="<?php echo home_url(); ?>"><?php _e('Go to homepage', kopa_get_domain());?></a></li>
+                        <li><a href="javascript: history.go(-1);"><?php _e('Ga terug naar de vorige pagina', kopa_get_domain());?></a></li>
+                        <li><a href="<?php echo home_url(); ?>"><?php _e('Ga naar de homepagina', kopa_get_domain());?></a></li>
                     </ul>
                 </div><!--right-col-->
             </section><!--error-404-->

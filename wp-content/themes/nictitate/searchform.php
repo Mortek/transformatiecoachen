@@ -1,5 +1,5 @@
 <?php
-$current_value = is_search() ? esc_attr(get_search_query()) : __('Search...', kopa_get_domain());
+$current_value = is_search() ? esc_attr(get_search_query()) : __('Zoeken...', kopa_get_domain());
 ?>
 
 <div class="search-box clearfix">

@@ -506,13 +506,16 @@ Header
     position:relative;
 }
 #header-top .search-icon {
-    background:url(/images/icons/search-icon.png) no-repeat center center #4d5356;
-    display:block;
-    width:41px;
-    height:41px;
-    text-indent:-99999px;
-    font-size:0;
-    float:right;
+    background: url(images/icons/search-icon.png) no-repeat center center #800080;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: -99999px;
+    font-size: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #header-top .search-box {    
@@ -3324,8 +3327,59 @@ input[type="text"]:focus {
     line-height: 30px;
     margin: 0 0 10px;
 }
+
 #text-4 > div > p:nth-child(1) > a:hover,
 #text-4 > div > p:nth-child(2) > a:hover {
     color: #800080 !important;
     text-decoration:none;
+}
+
+p {
+    line-height: 25px;
+}
+
+ul > li,
+ol > li,
+table > tbody > tr > td {
+    font-size: 15px !important;
+}
+
+#n2-ss-5item1 > a,
+body {
+    font-family: 'Arial', sans-serif !important;
+}
+
+#kopa_widget_tagline-2 > a:hover {
+    color: #fff;
+    background-color: #303030 !important;
+}
+
+#wpcf7-f15-p29-o1 > form {
+    width:50% !important;
+}
+
+#wpcf7-f15-p29-o1 > form > p:nth-child(2) > label > span > input,
+#wpcf7-f15-p29-o1 > form > p:nth-child(3) > label > span > input,
+#wpcf7-f15-p29-o1 > form > p:nth-child(4) > label > span > input,
+#wpcf7-f15-p29-o1 > form > p:nth-child(5) > label > span > textarea {
+    width: 100% !important;
+}
+
+#wpcf7-f15-p29-o1 > form > p:nth-child(6) > input {
+    background-color: #800080;
+    padding: 8px 20px;
+    font-size: 18px;
+    border: 0px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cbp-af-header #logo-image a img {
+    margin-top: -20px;
+    width: 80px;
+}
+
+.sticky-header #logo-image a img {
+    margin-top: -11px;
+    width: 55px;
 }

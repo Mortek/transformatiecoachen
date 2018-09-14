@@ -5,7 +5,7 @@
                 <div class="span12">
                     <h1><?php 
                     if ( is_search() ) {
-                        _e( 'Search', kopa_get_domain() ); 
+                        _e( 'Zoeken', kopa_get_domain() ); 
                     } elseif( is_tax( 'product_cat' ) || is_tax( 'product_tag' ) ) {
                         $queried_object = get_queried_object();
                         echo $queried_object->name;

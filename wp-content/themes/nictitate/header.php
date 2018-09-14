@@ -24,7 +24,7 @@
                     <div class="wrapper">
                         <div class="row-fluid">
                             <div class="span12 clearfix">
-                                <p class="hot-line"><?php echo htmlspecialchars_decode(stripslashes(get_option('kopa_theme_options_left_header_description'))); ?></p>
+                                <p class="hot-line"><?php echo htmlspecialchars_decode(stripslashes('T: <a style="color: #fff;" href="tel:0624111962">06 241 119 62</a></br>')); ?></p>
                                 <div class="top-box clearfix">
                                     <ul class="top-link clearfix">
 

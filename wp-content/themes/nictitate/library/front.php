@@ -492,7 +492,7 @@ function kopa_breadcrumb() {
             $s = get_search_query();
             $c = $wp_query->found_posts;
 
-            $description = sprintf(__('<span class="%1$s">Your search for "%2$s"', kopa_get_domain()), $current_class, $s);
+            $description = sprintf(__('<span class="%1$s">Jouw zoekopdracht voor "%2$s"', kopa_get_domain()), $current_class, $s);
             $breadcrumb .= $prefix . $description;
         } else if (is_author()) {
             $breadcrumb.= $breadcrumb_home;
