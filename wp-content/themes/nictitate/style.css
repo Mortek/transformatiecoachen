@@ -337,7 +337,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:hover,
 .tag-box a:hover,
 #comments .comment-body .comment-reply-link:hover,
 #comments .comment-body .comment-edit-link:hover {
-    color: #800080;
+    color: #c4c4c4;
     text-decoration:none;
 }
 p { 

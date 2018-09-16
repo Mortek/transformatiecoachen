@@ -1,6 +1,7 @@
 <?php
 $kopa_setting = kopa_get_template_setting();
 $sidebars = $kopa_setting['sidebars'];
+$sidebars = [0 => "sidebar_14", 1 => "sidebar_10", 2 => "sidebar_11", 3 => "sidebar_12"];
 $total = count($sidebars);
 
 $footer_sidebar[0] = ($kopa_setting) ? $sidebars[$total - 3] : 'sidebar_3';
