@@ -20,6 +20,12 @@
             <input type="url" value="<?php echo get_option('kopa_theme_options_social_links_facebook_url'); ?>" id="kopa_theme_options_social_links_facebook_url" name="kopa_theme_options_social_links_facebook_url">
         </div>
 
+        <!-- LINKEDIN -->
+        <div class="kopa-element-box kopa-theme-options">
+            <span class="kopa-component-title"><?php _e('Linked In URL', kopa_get_domain()); ?></span>
+            <input type="url" value="<?php echo get_option('kopa_theme_options_social_links_linked_in_url'); ?>" id="kopa_theme_options_social_links_linked_in_url" name="kopa_theme_options_social_links_linked_in_url">
+        </div>
+
         <!-- TWITTER -->
         <div class="kopa-element-box kopa-theme-options">
             <span class="kopa-component-title"><?php _e('Twitter URL', kopa_get_domain()); ?></span>

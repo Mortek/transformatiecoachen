@@ -1605,6 +1605,7 @@ class Kopa_Widget_Socials extends WP_Widget {
         extract($args);
         $title = apply_filters('widget_title', empty($instance['title']) ? '' : $instance['title'], $instance, $this->id_base);
         $facebook = get_option( 'kopa_theme_options_social_links_facebook_url' );
+        $linkedin = get_option( 'kopa_theme_options_social_links_linked_in_url' );
         $twitter = get_option( 'kopa_theme_options_social_links_twitter_url' );
         $rss = get_option( 'kopa_theme_options_social_links_rss_url' );
         $flickr = get_option( 'kopa_theme_options_social_links_flickr_url' );
@@ -1620,6 +1621,7 @@ class Kopa_Widget_Socials extends WP_Widget {
             echo $before_title . $title . $after_title;
 
         if ( empty( $facebook ) &&
+             empty( $linkedin ) &&
              empty( $twitter ) && 
              $rss == 'HIDE' &&
              empty( $flickr ) &&
@@ -1641,6 +1643,10 @@ class Kopa_Widget_Socials extends WP_Widget {
 
             <?php if ( ! empty( $facebook ) ) : ?>
                 <li><a target="_blank" href="<?php echo esc_url( $facebook ); ?>" data-icon="&#xf09a;"></a></li>
+            <?php endif; ?>
+
+            <?php if ( ! empty( $linkedin ) ) : ?>
+                <li><a href="<?php echo esc_url( $linkedin ); ?>" data-icon="&#xf08c;" target="_blank"></a></li>
             <?php endif; ?>
 
             <?php if ( $rss != 'HIDE' && $rss == '' ) : ?>
